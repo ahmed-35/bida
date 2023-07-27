@@ -27,7 +27,7 @@
     }
     #div1>a>button,#div1>a>button::after {
         margin: 5px;
-        padding: 10px 50px;
+        padding: 10px 30px;
         font-size: 20px;
         border: none;
         border-radius: 5px;
@@ -132,7 +132,7 @@
       }
       #div2>a>button,#div2>a>button::after {
         margin: 5px;
-        padding: 10px 50px;
+        padding: 10px 30px;
         font-size: 20px;
         border: none;
         border-radius: 5px;
@@ -236,7 +236,7 @@
       }
       #div3 >button,#div3 >button::after {
         margin: 5px;
-        padding: 10px 50px;
+        padding: 10px 30px;
         font-size: 20px;
         border: none;
         border-radius: 5px;
