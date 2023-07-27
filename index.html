@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ahmed abida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <img src="icon/me.jpg" id="img"><br>
+        <div id="div1">
+            <a href="http://www.facebook.com/profile.php?id=100009676607998" ><button>
+                Open Facebook
+            </button></a></div>
+        <div id="div2">
+            <a href="https://www.instagram.com/biida_35/" ><button>
+                Open Instagram
+            </button></a></div>
+        <div id="div3">
+    <button id="whatsappButton">Open WhatsApp</button>
+
+    <script>
+        // Replace '1234567890' with your actual phone number and encode the message
+        const phoneNumber = '+21624773620';
+        const encodedMessage = encodeURIComponent('Hello, I visited your website and have a question.');
+
+        // Attach a click event listener to the button
+        const whatsappButton = document.getElementById('whatsappButton');
+        whatsappButton.addEventListener('click', function() {
+            // Open WhatsApp with the pre-filled message
+            window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`);
+        });
+    </script>
+        </div>
+        
+    </div>
+</body>
+</html>
