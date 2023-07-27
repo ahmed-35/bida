@@ -5,7 +5,7 @@
     }
     .main{
         background-color: #212121;
-        margin-top: 13%;
+        margin-top: 30%;
         margin-left: 35%;
         text-align: center;
         padding: 15px;
@@ -236,7 +236,7 @@
       }
       #div3 >button,#div3 >button::after {
         margin: 5px;
-        padding: 10px 30px;
+        padding: 10% 30% ;
         font-size: 20px;
         border: none;
         border-radius: 5px;
